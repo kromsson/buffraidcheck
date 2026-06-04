@@ -3,17 +3,20 @@
 A World of Warcraft: Wrath of the Lich King (3.3.5a) addon to check if raid/group members have essential buffs.
 
 ## Features
-- **Graphical User Interface:** Results are displayed in a scrollable Ace3 window.
-- Checks for class-specific buffs based on group composition:
-  - **Paladin:** Checks for Blessings (Kings, Might, Wisdom, Sanctuary) and Auras. Requires 1 blessing if 1 Paladin is in group, and at least 2 blessings if 2+ are present. Also checks for the presence of an Aura.
-  - **Druid:** Mark of the Wild / Gift of the Wild.
-  - **Priest:** Power Word: Fortitude / Prayer of Fortitude.
-  - **Mage:** Arcane Intellect / Arcane Brilliance.
-- Checks for **Flasks** and **Food** (Well Fed) buffs.
-- **Standalone:** Includes embedded Ace3 libraries for easy installation.
+- **Detailed Scan Window:** View specific missing buffs for every raid member.
+- **Whisper Feature:** Click the **"W"** button next to a player to whisper them a list of their missing buffs.
+- **Interface Options:** Access settings via **Escape > Interface > Addons > BuffRaidCheck**.
+  - Customize the whisper message prefix.
+  - Toggle Paladin Aura checking.
+- **Class Logic:**
+  - **Paladin:** Checks for Blessings (1 if 1 Paladin, 2 if 2+) and Auras.
+  - **Druid:** Mark/Gift of the Wild.
+  - **Priest:** Fortitude.
+  - **Mage:** Intellect.
+- **Consumables:** Checks for Flasks and Food.
 
 ## Usage
-Type `/brc` or `/buffraidcheck` in the chat to open the results window.
+- `/brc` or `/buffraidcheck`: Open the detailed scan results window.
 
 ## Requirements
 - WoW WotLK 3.3.5a
