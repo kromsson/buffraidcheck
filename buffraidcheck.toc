@@ -1,0 +1,9 @@
+## Interface: 30300
+## Title: BuffRaidCheck
+## Notes: Checks raid members for essential buffs, flasks, and food.
+## Author: Gemini CLI
+## Version: 1.1
+## SavedVariables: BuffRaidCheckDB
+
+embeds.xml
+buffraidcheck.lua
